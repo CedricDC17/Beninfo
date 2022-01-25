@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(#F3C892, #f19626);
+    text-align: center;
 }
 
 .topnav {
@@ -38,7 +39,6 @@ body {
     width: 400px;
     padding: 20px 20px;
     transition: transform 0.3s ease;
-    transform: translateY(0px);
 }
 
 .bubble:hover {
@@ -70,4 +70,22 @@ hr {
     color: #F3C892;
     border-collapse: collapse;
     height: 0;
+}
+
+.logo {
+    width: 50%;
+    height: 20%;
+}
+
+.container {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+p {
+    vertical-align: middle;
+    width: 500px;
 }
