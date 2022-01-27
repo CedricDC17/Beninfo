@@ -1,11 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(#F3C892, #f19626);
+    background-image: linear-gradient(#0488ff, #dcdbdb);
+    text-align: center;
 }
 
 .topnav {
-    background-color: #FFF1BD;
+    background-color: #dcdbdb;
     overflow: hidden;
 }
 
@@ -18,12 +19,12 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #F3C892;
+    background-color: #0488ff;
     color: black;
 }
 
 .topnav a.active {
-    background-color: #F3C892;
+    background-color: #0488ff;
     color: white;
 }
 
@@ -37,12 +38,13 @@ body {
     height: 400px;
     width: 400px;
     padding: 20px 20px;
-    transition: transform 0.3s ease;
-    transform: translateY(0px);
+    filter: blur(2px);
+    transition: transform 0.3s, filter 0.3s ease;
 }
 
 .bubble:hover {
     transform: translateY(-10px);
+    filter: blur(0px);
 }
 
 td {
@@ -62,12 +64,40 @@ th {
 }
 
 hr {
-    border: 0px 0px 5 0px 0px;
     width: 10%;
-    height: 20px;
     border-style: solid;
-    border-radius: 5px;
-    color: #F3C892;
+    color: black;
     border-collapse: collapse;
-    height: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 50%;
+    height: 20%;
+}
+
+.container {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+    overflow: hidden;
+    display: inline-block;
+    padding-top: 100px;
+}
+
+p {
+    vertical-align: middle;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div hr {
+    border: 1px solid;
+    border-style: dashed;
+    width: 5%;
 }
