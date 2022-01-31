@@ -11,30 +11,28 @@
 
 <body class="main">
 
-    <div class="topnav">
-        <a href="index.html" style="padding:0;"><img src="CSS - Binks Images\IMG_39662.png" alt="" class="ben"></a>
-        <a class="active" href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="produits.html">Produits</a>
-        <a href="contact.html">Contact</a>
-    </div>
+    <div class="left">
+        <div class="topnav">
+            <a href="index.html" style="padding:0;"><img src="CSS - Binks Images\IMG_39662.png" alt="" class="ben"></a>
+            <a class="active" href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="produits.html">Produits</a>
+            <a href="contact.html">Contact</a>
+        </div>
 
-    <div style="padding-left:16px; text-align:center;">
-        <img class="logo" src="CSS - Binks Images\IMG_39662.png" alt="logo">
-        <hr class="fathr">
-        <h2>Ici nous délivront des services tels que:</h2>
-        <hr class="fathr">
-    </div>
-
-    <div style="text-align:center; height:1500px;">
+        <div style="padding-left:16px; text-align:center;">
+            <img class="logo" src="CSS - Binks Images\IMG_39662.png" alt="logo">
+            <hr class="fathr">
+            <h2>Ici nous délivront des services tels que:</h2>
+            <hr class="fathr">
+        </div>
 
 
         <div class="container">
             <a href="services.html">
-                <img class="bubble" src="CSS - Binks Images\print.jpg">
+                <img class="bubble" src="CSS - Binks Images\Phonerep.jpg" alt="">
                 <h3>Réparation</h3>
             </a>
-            <p class="PP">Vous pouvez imprimer tous types de documents sous plusieurs formats, ce service coute 10 centimes par pages.</p>
         </div>
 
         <div class="container">
@@ -43,23 +41,22 @@
                 <img class="bubble" src="CSS - Binks Images\print.jpg" alt>
                 <h3>Photocopie/Fax</h3>
             </a>
-            <p class="PP">Vous pouvez imprimer tous types de documents sous plusieurs formats, ce service coute 10 centimes par pages.</p>
         </div>
 
         <div class="container">
             <a href="services.html">
+
                 <img class="bubble" src="CSS - Binks Images\print.jpg" alt>
                 <h3>Cyber Express</h3>
             </a>
-            <p class="PP">Vous pouvez imprimer tous types de documents sous formats A3/A4/A5, ce service coute 10 centimes par pages. + reduction si vous voyez ce message</p>
         </div>
 
         <div class="container">
             <a href="services.html">
+
                 <img class="bubble" src="CSS - Binks Images\Phonerep.jpg" alt="">
                 <h3>Télephonie</h3>
             </a>
-            <p class="PP">Vous pouvez imprimer tous types de documents sous plusieurs formats, ce service coute 10 centimes par pages.</p>
         </div>
 
 
@@ -69,31 +66,31 @@
 
         <div class="container">
             <a href="services.html">
+
                 <img class="bubble" src="CSS - Binks Images\Phonerep.jpg" alt="">
                 <h3>Matériel</h3>
             </a>
-            <p class="PP">Vous pouvez imprimer tous types de documents sous plusieurs formats, ce service coute 10 centimes par pages.</p>
         </div>
         <div class="container">
             <a href="services.html">
+
                 <img class="bubble" src="CSS - Binks Images\print.jpg" alt="">
                 <h3>Vente</h3>
             </a>
-            <p class="PP">Vous pouvez imprimer tous types de documents sous plusieurs formats, ce service coute 10 centimes par pages.</p>
         </div>
         <div class="container">
             <a href="services.html">
+
                 <img class="bubble" src="CSS - Binks Images\print.jpg" alt="">
                 <h3>Electricité</h3>
             </a>
-            <p class="PP">Vous pouvez imprimer tous types de documents sous plusieurs formats, ce service coute 10 centimes par pages.</p>
         </div>
         <div class="container">
             <a href="services.html">
+
                 <img class="bubble" src="CSS - Binks Images\Phonerep.jpg" alt="">
                 <h3>Micro-Informatique</h3>
             </a>
-            <p class="PP">Vous pouvez imprimer tous types de documents sous plusieurs formats, ce service coute 10 centimes par pages.</p>
         </div>
     </div>
 

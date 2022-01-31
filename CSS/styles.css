@@ -1,11 +1,7 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(#F3C892, #f19626);
-}
+/*------------------------------------GLOBAL------------------------------------------*/
 
 .topnav {
-    background-color: #FFF1BD;
+    background-color: #dcdbdb;
     overflow: hidden;
 }
 
@@ -18,12 +14,12 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #F3C892;
+    background-color: #0488ff;
     color: black;
 }
 
 .topnav a.active {
-    background-color: #F3C892;
+    background-color: #0488ff;
     color: white;
 }
 
@@ -32,42 +28,112 @@ body {
     width: 200px;
 }
 
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#0488ff, #dcdbdb);
+}
+
+
+/*------------------------------------INDEX.html------------------------------------------*/
+
+.logo {
+    width: 50%;
+    height: 20%;
+}
+
+.container {
+    margin: 30px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+}
+
 .bubble {
     border-radius: 100%;
     height: 400px;
     width: 400px;
-    padding: 20px 20px;
-    transition: transform 0.3s ease;
-    transform: translateY(0px);
+    filter: blur(0px);
+    transition: transform 0.3s, filter 0.3s ease;
 }
 
-.bubble:hover {
+.PP {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s ease;
+}
+
+.container:hover .bubble {
+    filter: blur(5px);
     transform: translateY(-10px);
 }
 
-td {
-    text-align: center;
-    /* border: 5px solid black;*/
+.container:hover .PP {
+    opacity: 1;
+    visibility: visible;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    width: 10%;
+    border-style: solid;
+    color: black;
+    border-collapse: collapse;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.fathr {
+    border: 1px solid;
+    border-style: dashed;
+    width: 5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*------------------------------------Produits.html------------------------------------------*/
+
+.product {
+    width: 300px;
 }
 
 table,
 tr,
-th {
+td {
     width: 100%;
-    /*
-    border: 5px solid black;
-    border-style: dashed;
-    border-collapse: collapse;
-    */
+    text-align: center;
 }
 
-hr {
-    border: 0px 0px 5 0px 0px;
-    width: 10%;
-    height: 20px;
-    border-style: solid;
-    border-radius: 5px;
-    color: #F3C892;
-    border-collapse: collapse;
-    height: 0;
+td {
+    width: auto;
+}
+
+
+/*------------------------------------Services.html------------------------------------------*/
+
+.serv {
+    height: 250px;
+    width: 600px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.serv p {
+    width: 100%;
 }
