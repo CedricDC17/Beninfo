@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Ben Ben</title>
+    <link rel="stylesheet" href="CSS\styles.css">
+</head>
+
+<body class="main">
+
+    <div class="left">
+        <div class="topnav">
+            <a href="index.html" style="padding:0;"><img src="CSS - Binks Images\IMG_39662.png" alt="" class="ben"></a>
+            <a class="active" href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="produits.html">Produits</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div style="padding-left:16px; text-align:center;">
+            <img class="logo" src="CSS - Binks Images\IMG_39662.png" alt="logo">
+            <hr class="fathr">
+            <h2>Ici nous délivront des services tels que:</h2>
+            <hr class="fathr">
+        </div>
+
+
+        <div class="container">
+            <a href="services.html">
+                <img class="bubble" src="CSS - Binks Images\Phonerep.jpg" alt="">
+                <h3>Réparation</h3>
+            </a>
+        </div>
+
+        <div class="container">
+            <a href="services.html">
+
+                <img class="bubble" src="CSS - Binks Images\print.jpg" alt>
+                <h3>Photocopie/Fax</h3>
+            </a>
+        </div>
+
+        <div class="container">
+            <a href="services.html">
+
+                <img class="bubble" src="CSS - Binks Images\print.jpg" alt>
+                <h3>Cyber Express</h3>
+            </a>
+        </div>
+
+        <div class="container">
+            <a href="services.html">
+
+                <img class="bubble" src="CSS - Binks Images\Phonerep.jpg" alt="">
+                <h3>Télephonie</h3>
+            </a>
+        </div>
+
+
+        <hr>
+
+
+
+        <div class="container">
+            <a href="services.html">
+
+                <img class="bubble" src="CSS - Binks Images\Phonerep.jpg" alt="">
+                <h3>Matériel</h3>
+            </a>
+        </div>
+        <div class="container">
+            <a href="services.html">
+
+                <img class="bubble" src="CSS - Binks Images\print.jpg" alt="">
+                <h3>Vente</h3>
+            </a>
+        </div>
+        <div class="container">
+            <a href="services.html">
+
+                <img class="bubble" src="CSS - Binks Images\print.jpg" alt="">
+                <h3>Electricité</h3>
+            </a>
+        </div>
+        <div class="container">
+            <a href="services.html">
+
+                <img class="bubble" src="CSS - Binks Images\Phonerep.jpg" alt="">
+                <h3>Micro-Informatique</h3>
+            </a>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
