@@ -1,73 +1,195 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(#F3C892, #f19626);
-}
-
-.topnav {
-    background-color: #FFF1BD;
-    overflow: hidden;
-}
-
-.topnav a {
-    float: left;
-    padding: 28px 32px;
-    color: black;
-    font-size: 25px;
-    text-decoration: none;
-}
-
-.topnav a:hover {
-    background-color: #F3C892;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #F3C892;
-    color: white;
-}
-
-.ben {
-    height: 79px;
-    width: 200px;
-}
-
 .bubble {
-    border-radius: 100%;
-    height: 400px;
-    width: 400px;
-    padding: 20px 20px;
-    transition: transform 0.3s ease;
-    transform: translateY(0px);
+    width: 320px;
+    height: 320px;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 50%;
+    transition: transform 0.3s, filter 0.3s ease;
 }
 
-.bubble:hover {
+.container-fluid {
+    padding-left: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #0488ff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav {
+    font-size: 1.5rem;
+    background-color: #79b7f0;
+}
+
+.row div {
+    position: relative;
+}
+
+.box:hover .bubble {
+    filter: blur(5px);
     transform: translateY(-10px);
 }
 
-td {
+.logo {
+    padding: 8px 0 8px 0;
+    background-color: #a3d7ffc0;
+}
+
+.logo a {
+    margin: 0;
+}
+
+.box:hover .PP {
+    opacity: 1;
+    visibility: visible;
+}
+
+h3 {
+    margin-bottom: 3rem;
+}
+
+.box {
+    color: black;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.PP {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-100%) translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s ease;
+    font-size: 1rem;
+    text-shadow: white 1px 0 10px;
+}
+
+.row {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.col {
+    margin: 0 1rem 0 1rem;
+}
+
+h1,
+.title {
+    margin: 3rem auto 5rem auto;
+    text-shadow: 10px 10px 2em blue;
+    font-style: italic;
+}
+
+.navbar {
+    padding: 0;
+}
+
+#press {
+    background-color: #d2d7dd;
+    /* margin-top: 5rem; */
+    font-size: 1rem;
+}
+
+.part-logo {
+    width: 20%;
+    max-width: 200px;
+    height: auto;
+}
+
+.graden {
+    height: 90px;
+    background: linear-gradient(#0488ff, #d2d7dd);
+}
+
+
+/* SERVICES */
+
+.serv {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 40%;
     text-align: center;
-    /* border: 5px solid black;*/
 }
 
-table,
-tr,
-th {
+
+/* PRODUITS */
+
+.prod-div {
+    background-color: rgba(250, 235, 215, 0.521);
+}
+
+small {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.prod-div.col {
+    margin: 2rem 1rem 2rem 1rem;
+    border: solid 1px;
+}
+
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*/
+
+.nav-pills-custom .nav-link {
+    color: #aaa;
+    background: #fff;
+    position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #0488ff;
+    background: #fff;
+}
+
+
+/* 
+@media (min-width: 992px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+ */
+
+thead {
+    background-color: #0f35a0;
+    color: white;
+}
+
+.tback {
+    background-color: #0488ff;
+}
+
+td {
+    color: white;
+}
+
+table {
     width: 100%;
-    /*
-    border: 5px solid black;
-    border-style: dashed;
-    border-collapse: collapse;
-    */
-}
-
-hr {
-    border: 0px 0px 5 0px 0px;
-    width: 10%;
-    height: 20px;
-    border-style: solid;
-    border-radius: 5px;
-    color: #F3C892;
-    border-collapse: collapse;
-    height: 0;
 }
