@@ -5,20 +5,243 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>ben-info.com</title>
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS\styles.css">
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <!--  -->
+    <script src="jquery-3.6.0.js"></script>
+    <script src="JavaScript\script.js"></script>
 </head>
 
-<body>
-    <div class="topnav">
-        <a href="index.html" style="padding:0;"><img src="CSS - Binks Images\IMG_39662.png" alt="" class="ben"></a>
-        <a href="index.html">Home</a>
-        <a class="active" href="services.html">Services</a>
-        <a href="produits.html">Produits</a>
-        <a href="contact.html">Contact</a>
+<body class="main">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid" id="nav-logo">
+            <div class="logo">
+                <a class="navbar-brand" href="index.html"><img src="CSS - Binks Images\IMG_39662.png " alt=" " width="120 " height="48 "> </a>
+            </div>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link  " aria-current="page " href="index.html ">Accueil</a>
+                    </li>
+                    <div class="vr"></div>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="services.html ">Services</a>
+                    </li>
+                    <div class="vr"></div>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="produits.html ">Produits</a>
+                    </li>
+                    <div class="vr"></div>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="contact.html ">Nous-Contacter</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Vertical tab -->
+    <div class="row pt-5">
+        <div class="col-md-3">
+
+            <ul class="nav flex-column nav-pills nav-pills-custom nav-fill" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link mb-3 p-3 shadow active" id="pills-rep-tab" data-bs-toggle="pill" data-bs-target="#pills-rep" type="button" role="tab" aria-controls="pills-rep" aria-selected="true">Diagnostique/Réparations</button>
+                </li>
+                <li class="nav-item " role="presentation">
+                    <button class="nav-link mb-3 p-3 shadow " id="pills-impression-tab" data-bs-toggle="pill" data-bs-target="#pills-impression" type="button" role="tab" aria-controls="pills-impression" aria-selected="false">Impression</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link mb-3 p-3 shadow " id="pills-internet-tab" data-bs-toggle="pill" data-bs-target="#pills-internet" type="button" role="tab" aria-controls="pills-internet" aria-selected="false">Espace Internet</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link mb-3 p-3 shadow " id="pills-devis-tab" data-bs-toggle="pill" data-bs-target="#pills-devis" type="button" role="tab" aria-controls="pills-devis" aria-selected="false">Demander un devis</button>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="col-md-9">
+            <div class="tab-content  tab-pane fade shadow rounded bg-white show active p-5" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-rep" role="tabpanel" aria-labelledby="pills-rep-tab">
+                    <h4>
+                        Reparations
+                    </h4>
+                    <table class="table table-bordered">
+                        <thead class="  ">
+                            <tr>
+                                <th scope="col">Service</th>
+                                <th scope="col">Tarfis TTC</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tback">
+                            <tr>
+                                <td>Diagnostique</td>
+                                <td>19€</td>
+                            </tr>
+                            <tr>
+                                <td>Installation Windows</td>
+                                <td>60€</td>
+                            </tr>
+                            <tr>
+                                <td>Installation Windows avec clé d'installation</td>
+                                <td>100€</td>
+                            </tr>
+                            <tr>
+                                <td>Récuperation données PC</td>
+                                <td>50€</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tab-pane fade" id="pills-impression" role="tabpanel" aria-labelledby="pills-impression-tab">
+                    <h4>
+                        Impression
+                    </h4>
+                    <table class="table table-bordered">
+                        <thead class="thead">
+                            <tr>
+                                <th scope="col">Service</th>
+                                <th scope="col">Tarfis TTC</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tback">
+                            <tr>
+                                <td>Noir et Blanc (prix unitaire)</td>
+                                <td>0,50€</td>
+                            </tr>
+                            <tr>
+                                <td>Couleur (prix unitaire)</td>
+                                <td>0,90€</td>
+                            </tr>
+                            <tr>
+                                <td>10 Noir et Blanc</td>
+                                <td>5€</td>
+                            </tr>
+                            <tr>
+                                <td>10 Couleur</td>
+                                <td>9€</td>
+                            </tr>
+                            <tr>
+                                <td>5 Noir et Blanc et 5 Couleurs</td>
+                                <td>7€</td>
+                            </tr>
+                            <tr>
+                                <td>Scanner</td>
+                                <td>0,40€</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Carte Bancaire à Partir de 5€</p>
+                </div>
+
+                <div class="tab-pane fade" id="pills-internet" role="tabpanel" aria-labelledby="pills-internet-tab">
+                    <h4>
+                        Espace Internet
+                    </h4>
+                    <table class="table table-bordered">
+                        <thead class="">
+                            <tr>
+                                <th scope="col">Service</th>
+                                <th scope="col">Tarfis TTC</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tback">
+                            <tr>
+                                <td>15 Minutes</td>
+                                <td>0,50€</td>
+                            </tr>
+                            <tr>
+                                <td>30 Minutes</td>
+                                <td>2€</td>
+                            </tr>
+                            <tr>
+                                <td>1 Heure</td>
+                                <td>4€</td>
+                            </tr>
+                            <tr>
+                                <td>Abonnement (par mois)</td>
+                                <td>20€</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tab-pane fade" id="pills-devis" role="tabpanel" aria-labelledby="pills-devis-tab">
+                    <h4>
+                        Demande Devis
+                    </h4>
+                    <div class="input-group input-group-lg justify-content-center">
+
+                        <form action="https://formsubmit.co/tisoxxin5@gmail.com" method="POST">
+
+
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="nom">Nom:</label>
+                                <input class="form-control" type="text" id="nom" name="Nom" required/>
+                            </div>
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="prenom">Prénom:</label>
+                                <input class="form-control" type="text" id="prenom" name="Prénom" required/>
+                            </div>
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="adresse">Adresse:</label>
+                                <input class="form-control" id="adresse" name="Adresse" required></input>
+                            </div>
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="cp">Code Postal:</label>
+                                <input class="form-control" type="number" id="cp" name="Code postal" required></input>
+                            </div>
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="ville">Ville:</label>
+                                <input class="form-control" id="ville" name="Ville" required></input>
+                            </div>
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="phone">Télephone:</label>
+                                <input class="form-control" type="number" id="phone" name="Télephone" required></input>
+                            </div>
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="mail">E-mail:</label>
+                                <input class="form-control" type="email" id="mail" name="Email" required/>
+                            </div>
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="produit">Produit:</label>
+                                <input class="form-control" id="produit" name="Produit"></input>
+                            </div>
+                            <div class="input-group input-group-md mb-3">
+                                <label class="input-group-text" for="msg">Message:</label>
+                                <textarea class="form-control" id="msg" name="Message" required></textarea>
+                            </div>
+                            <input class="btn-lg btn-outline-primary text-dark" type="submit" name="mod-form-submit" value="Envoyer le formulaire"> </form>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
-    <p>Bonjour haha ici Services</p>
+
+
+
+
+
 </body>
 
 </html>
