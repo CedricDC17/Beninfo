@@ -207,6 +207,14 @@ thead {
     background-color: #0488ff;
 }
 
+.tback2 {
+    background-color: white;
+}
+
+.tback2 td {
+    color: black;
+}
+
 td {
     color: white;
 }
