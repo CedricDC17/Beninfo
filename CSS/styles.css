@@ -8,7 +8,7 @@
 }
 
 .big {
-    margin-top: 4.5rem;
+    margin-top: 3rem;
 }
 
 .container-fluid {
@@ -61,7 +61,7 @@ h3 {
 
 .PP {
     position: absolute;
-    width: 300px;
+    width: 285px;
     top: 50%;
     left: 50%;
     transform: translateY(-100%) translateX(-50%);
