@@ -7,6 +7,10 @@
     transition: transform 0.3s, filter 0.3s ease;
 }
 
+.big {
+    margin-top: 4.5rem;
+}
+
 .container-fluid {
     padding-left: 0;
 }
